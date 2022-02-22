@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1738
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "EmployeeSurvey", "EmployeeSurvey\EmployeeSurvey.dtproj", "{E312F97B-58B9-40B1-BF97-DE418A2264AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E312F97B-58B9-40B1-BF97-DE418A2264AB}.Development|Default.ActiveCfg = Development
+		{E312F97B-58B9-40B1-BF97-DE418A2264AB}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79D9F366-5462-473A-84B1-A2230299DFB2}
+	EndGlobalSection
+EndGlobal
