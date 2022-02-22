@@ -1,0 +1,438 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="18a4ee68-7b7a-4f85-9ef0-6af154fd9750" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Capstonec7a</ID>
+  <Name>Capstonec7a</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="d8267190-d7a2-472d-af1d-71859da76e29">
+      <ID>Lkp Salaries</ID>
+      <Name>Lkp Salaries</Name>
+      <DimensionID>Lkp Salaries</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6961acc8-33f2-4039-a4c4-ab2880fc01be">
+          <AttributeID>Employee Number</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="99bdbc0d-9259-432a-b7f1-8cf7e282f5c8">
+      <ID>Job Satisfaction</ID>
+      <Name>Job Satisfaction</Name>
+      <DimensionID>Lkp Ratings</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d7125ac6-58b0-4257-9ced-457e7070d1cf">
+          <AttributeID>Rating ID</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="4edb0363-72e5-4fcf-9cfb-c9c730921309">
+      <ID>Environment Satisfaction</ID>
+      <Name>Environment Satisfaction</Name>
+      <DimensionID>Lkp Ratings</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a505a0fa-2bad-41e9-a5bb-9c8f32d792c3">
+          <AttributeID>Rating ID</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="678a360a-3914-4817-bfc0-ebcb661da6ac">
+      <ID>Work Life Balance</ID>
+      <Name>Work Life Balance</Name>
+      <DimensionID>Lkp Ratings</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5fc0185f-13de-4f26-8023-7e869fe727fc">
+          <AttributeID>Rating ID</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="fab47fa1-afb8-40b3-934d-2bc8e80ae773">
+      <ID>Lkp Department</ID>
+      <Name>Lkp Department</Name>
+      <DimensionID>Lkp Department</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="60e938a9-414f-4f0f-82fa-52d43c634a4c">
+          <AttributeID>Department Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="230191af-dd36-42fa-93eb-6044bb3052bd">
+      <ID>Lkp Education</ID>
+      <Name>Lkp Education</Name>
+      <DimensionID>Lkp Education</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4210ce2d-e43a-4f13-95be-47ba0362f051">
+          <AttributeID>Education Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c34d508d-b603-4a89-8e12-0071c70a5938">
+      <ID>Lkp Marital Status</ID>
+      <Name>Lkp Marital Status</Name>
+      <DimensionID>Lkp Marital Status</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d54b5e7d-4bee-4d93-8bbc-ae5557d49efd">
+          <AttributeID>Martial Status Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="67d6fef6-2f3a-4b1b-8f64-ff6d2897a0b4">
+      <ID>Lkp Gender</ID>
+      <Name>Lkp Gender</Name>
+      <DimensionID>Lkp Gender</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="61729c15-27b5-4c1a-8e34-8795a06f2c53">
+          <AttributeID>Gender Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="d76d3e48-714e-41f9-b7c9-3bfb19595885">
+      <ID>Lkp Job Role</ID>
+      <Name>Lkp Job Role</Name>
+      <DimensionID>Lkp Job Role</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e118b84b-67a3-4a88-839b-aa217a60fd58">
+          <AttributeID>Job Role Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="4e49a90b-5b4d-42a4-a90e-a9b3d6f92c81">
+      <ID>Tbl Employee Survey</ID>
+      <Name>Tbl Employee Survey</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="885bac4c-12fa-4b61-a916-a81f074f1ec3">
+          <ID>Age</ID>
+          <Name>Age</Name>
+          <Source dwd:design-time-name="90fe3c54-d93e-46fc-acbf-9412c2fdd7bf">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ee7c5711-85fb-4128-a19e-e5b3ca0863f0">
+              <TableID>dbo_tblEmployeeSurvey</TableID>
+              <ColumnID>Age</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3a5f4e57-25ac-49e1-a6a1-83945fad336c">
+          <ID>Job Level</ID>
+          <Name>Job Level</Name>
+          <Source dwd:design-time-name="8bfb9042-45fa-4186-b387-7b6db71a6cc9">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4ed39961-711b-4459-b206-e497d841900c">
+              <TableID>dbo_tblEmployeeSurvey</TableID>
+              <ColumnID>JobLevel</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f25c0bf1-367f-40df-b857-dab73c4b5bed">
+          <ID>Num Companies Worked</ID>
+          <Name>Num Companies Worked</Name>
+          <Source dwd:design-time-name="dbbf90e8-c913-4fcf-87f4-5d64ee2705d6">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6b2d88c3-1040-4c4f-8c09-bc5dea441fa3">
+              <TableID>dbo_tblEmployeeSurvey</TableID>
+              <ColumnID>NumCompaniesWorked</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="bac91bd0-721f-488e-94ce-5576361d845c">
+          <ID>Performance Rating</ID>
+          <Name>Performance Rating</Name>
+          <Source dwd:design-time-name="0c3694bb-3ac9-43da-bf09-fc03d5d4bf09">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7b6ab9cd-fd8b-4d0e-9c2d-f373b73354a9">
+              <TableID>dbo_tblEmployeeSurvey</TableID>
+              <ColumnID>PerformanceRating</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a8c811c8-8ecc-4488-8c94-91ad5bb0dd5b">
+          <ID>Training Times Last Year</ID>
+          <Name>Training Times Last Year</Name>
+          <Source dwd:design-time-name="3dece9ce-afdb-4ab6-be5b-e55ba16e05e0">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="41f187af-eaf6-4907-b5c5-871ac50509b5">
+              <TableID>dbo_tblEmployeeSurvey</TableID>
+              <ColumnID>TrainingTimesLastYear</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="dc99fef2-97e8-42a1-8449-94c74a173fb8">
+          <ID>Years At Company</ID>
+          <Name>Years At Company</Name>
+          <Source dwd:design-time-name="ee259af2-7541-4529-861d-45ce847aa095">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bf5b5da5-7d5d-4b8c-83f1-90ae841e948a">
+              <TableID>dbo_tblEmployeeSurvey</TableID>
+              <ColumnID>YearsAtCompany</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4477d22b-bda5-4552-b84a-8e9f1577dd69">
+          <ID>Years In Current Role</ID>
+          <Name>Years In Current Role</Name>
+          <Source dwd:design-time-name="7acd60cf-143e-4264-9498-5ffa4d4e2601">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="21fc30b0-fb86-49e1-8819-4f552a137a83">
+              <TableID>dbo_tblEmployeeSurvey</TableID>
+              <ColumnID>YearsInCurrentRole</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="72331d3d-6df3-4e6e-a2bf-188b5bd8026d">
+          <ID>Years Since Last Promotion</ID>
+          <Name>Years Since Last Promotion</Name>
+          <Source dwd:design-time-name="86349726-f895-4e21-8f38-b8383a8ef6ef">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d54cfaf3-62da-40b1-a9ae-7f9d2a62819f">
+              <TableID>dbo_tblEmployeeSurvey</TableID>
+              <ColumnID>YearsSinceLastPromotion</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c6fd6982-0a38-40f0-9bab-0a8cefeb3fd0">
+          <ID>Years With Curr4</ID>
+          <Name>Years With Curr4</Name>
+          <Source dwd:design-time-name="23109c56-77f2-4a1d-b862-db26484b3b42">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="510bd3d2-6685-48f0-bc40-19f1f02a2a60">
+              <TableID>dbo_tblEmployeeSurvey</TableID>
+              <ColumnID>YearsWithCurr4</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="782cb859-9573-4577-9cbf-8e4fc6b90aee">
+          <ID>Employee Count</ID>
+          <Name>Employee Count</Name>
+          <Source dwd:design-time-name="8c1f1133-e3da-4ce1-9928-655dca375ecf">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d9f0327b-6433-4435-a5c5-0130f002b303">
+              <TableID>dbo_tblEmployeeSurvey</TableID>
+              <ColumnID>EmployeeCount</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="92d7f293-1287-41f7-9e5e-3ed741af92ad">
+          <CubeDimensionID>Lkp Department</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="98926fc1-19b2-448c-b2da-f1c0726b3ffe">
+              <AttributeID>Department Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e8c672c1-a6df-453c-8578-34b2a8af2be8">
+                  <DataType>SmallInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2c519a48-7dd0-4904-be2d-2c6ca7ab9161">
+                    <TableID>dbo_tblEmployeeSurvey</TableID>
+                    <ColumnID>Department</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4c7452c6-f814-4506-9992-fdcb0d103979">
+          <CubeDimensionID>Lkp Salaries</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6c1a640a-407a-40a6-8eb8-9267b433d008">
+              <AttributeID>Employee Number</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b97fddf0-d4ca-4e86-b5bf-34622672f9e7">
+                  <DataType>SmallInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a5b76291-937f-4562-b253-3454c568b042">
+                    <TableID>dbo_tblEmployeeSurvey</TableID>
+                    <ColumnID>EmployeeNumber</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d8808875-6050-49e0-8a2e-3b0d1978c22a">
+          <CubeDimensionID>Lkp Education</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="14579814-2c5b-4a07-a6b6-a5ceff4b22ff">
+              <AttributeID>Education Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d5ddecbc-c3c2-4601-b442-9e0f5e9c53ac">
+                  <DataType>SmallInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fc71e2fe-f3a1-473e-94df-b75b468ae867">
+                    <TableID>dbo_tblEmployeeSurvey</TableID>
+                    <ColumnID>Education</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1199e522-9d78-4fc2-8fc3-665c4bcd7f61">
+          <CubeDimensionID>Lkp Marital Status</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ac04a23e-3a9d-42a8-a5a6-fa541a89ed37">
+              <AttributeID>Martial Status Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a245a44f-319c-4e7d-9f81-d6fb45dc6cc8">
+                  <DataType>SmallInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="41fc49c6-497d-4066-b937-15f56702521b">
+                    <TableID>dbo_tblEmployeeSurvey</TableID>
+                    <ColumnID>MaritalStatus</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ade07b1f-c7f5-43bf-a161-e7dc91362e4b">
+          <CubeDimensionID>Lkp Gender</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3c763197-5794-4e40-863b-0cec60216391">
+              <AttributeID>Gender Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="53885623-aaf5-4fbc-8f35-2f64962f5922">
+                  <DataType>SmallInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="99385fb5-3974-4d65-99c9-836a9839ef29">
+                    <TableID>dbo_tblEmployeeSurvey</TableID>
+                    <ColumnID>Gender</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3817507b-95ad-4520-9505-3c4c3bc9ed4b">
+          <CubeDimensionID>Lkp Job Role</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="bc223ff1-074e-49ca-ab29-cb9e3f0d2714">
+              <AttributeID>Job Role Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="10727434-657d-43a7-bb8c-e6faa7416f6f">
+                  <DataType>SmallInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2aa6f1e7-cdc0-4862-8750-727d9a7da193">
+                    <TableID>dbo_tblEmployeeSurvey</TableID>
+                    <ColumnID>JobRole</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9f243925-a4ed-47fe-942b-344bd5ae36a3">
+          <CubeDimensionID>Job Satisfaction</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="92eff3a7-ac02-4de6-ad5f-0b93bf43907c">
+              <AttributeID>Rating ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5b785dc9-1914-4c5d-b76e-d1a9bf3a38d3">
+                  <DataType>SmallInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fdf8ea3c-8f2d-4a71-b3ed-e260ad7aede6">
+                    <TableID>dbo_tblEmployeeSurvey</TableID>
+                    <ColumnID>JobSatisfaction</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fa47608e-10ea-4238-be1a-2836fb76a67c">
+          <CubeDimensionID>Environment Satisfaction</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ac6e1c3d-0ec2-49c3-9976-8643f7ee5bd8">
+              <AttributeID>Rating ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c3c8ac56-37bc-40d0-a3b8-693169b34d4f">
+                  <DataType>SmallInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c278944e-034c-4f39-aea4-70607ea5a981">
+                    <TableID>dbo_tblEmployeeSurvey</TableID>
+                    <ColumnID>EnvironmentSatisfaction</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="930d5a66-9b2e-4229-a516-0ce25dde8bf3">
+          <CubeDimensionID>Work Life Balance</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e2ea975b-ca51-483b-b3fa-1afa1960ea3d">
+              <AttributeID>Rating ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="36e3fa03-8d1b-4229-a9d6-ad7e0485d317">
+                  <DataType>SmallInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="20fe8939-853e-4677-aab6-5eb692559f0a">
+                    <TableID>dbo_tblEmployeeSurvey</TableID>
+                    <ColumnID>WorkLifeBalance</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="ef6b2826-b2b6-4870-b999-410c2f03c943">
+    <DataSourceViewID>Capstonec7a</DataSourceViewID>
+  </Source>
+</Cube>

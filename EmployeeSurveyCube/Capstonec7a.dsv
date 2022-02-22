@@ -1,0 +1,505 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a1c61427-76ec-4189-bced-58e5a4bf5920" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Capstonec7a</ID>
+  <Name>Capstonec7a</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="19" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="9" scrolltop="-10780" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="83" x="39396" y="22357" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="lkpEducation" left="6518" top="-192" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_lkpEducation" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="lkpDepartment" left="12932" top="-5770" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_lkpDepartment" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="lkpGender" left="9686" top="9020" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_lkpGender" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="lkpJobRole" left="17745" top="9436" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_lkpJobRole" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="lkpMaritalStatus" left="9852" top="4239" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3069" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000fd0b000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_lkpMaritalStatus" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="LkpRatings" left="33880" top="-223" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_LkpRatings" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="lkpSalaries" left="23514" top="-5642" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3413" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000550d0000fe080000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_lkpSalaries" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="tblEmployeeSurvey" left="18390" top="-351" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="4419" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00004311000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_tblEmployeeSurvey" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="15632" top="-5780" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="3058" height="6029" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[tblEmployeeSurvey-lkpDepartment]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="8" sourceattachpoint="11" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="15932" y="-5381" />
+                    <point x="17018" y="-5381" />
+                    <point x="17018" y="-51" />
+                    <point x="18390" y="-51" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="21949" top="-3839" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="2571" height="3788" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[tblEmployeeSurvey-lkpSalaries]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="8" sourceattachpoint="1" destattachpoint="12" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="24120" y="-3340" />
+                    <point x="24120" y="-1766" />
+                    <point x="22249" y="-1766" />
+                    <point x="22249" y="-351" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="9218" top="-202" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="9472" height="1001" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[tblEmployeeSurvey-lkpEducation]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="8" sourceattachpoint="11" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="9518" y="197" />
+                    <point x="14018" y="197" />
+                    <point x="14018" y="499" />
+                    <point x="18390" y="499" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="12621" top="4049" logicalid="12" controlid="12" masterid="0" hint1="0" hint2="0" width="6069" height="979" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[tblEmployeeSurvey-lkpMaritalStatus]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="8" sourceattachpoint="11" destattachpoint="30" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="12921" y="4628" />
+                    <point x="15655" y="4628" />
+                    <point x="15655" y="4349" />
+                    <point x="18390" y="4349" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="12386" top="3499" logicalid="13" controlid="13" masterid="0" hint1="0" hint2="0" width="6304" height="6310" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[tblEmployeeSurvey-lkpGender]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="8" sourceattachpoint="11" destattachpoint="28" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="12686" y="9409" />
+                    <point x="15538" y="9409" />
+                    <point x="15538" y="3799" />
+                    <point x="18390" y="3799" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="18649" top="4349" logicalid="14" controlid="14" masterid="0" hint1="0" hint2="0" width="2096" height="5587" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[tblEmployeeSurvey-lkpJobRole]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="8" sourceattachpoint="8" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="20345" y="9436" />
+                    <point x="20345" y="6772" />
+                    <point x="18949" y="6772" />
+                    <point x="18949" y="4649" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="22509" top="749" logicalid="15" controlid="15" masterid="0" hint1="0" hint2="0" width="11671" height="917" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[tblEmployeeSurvey-LkpRatings]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="8" sourceattachpoint="14" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="33880" y="1266" />
+                    <point x="28345" y="1266" />
+                    <point x="28345" y="1049" />
+                    <point x="22809" y="1049" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="22509" top="199" logicalid="17" controlid="17" masterid="0" hint1="0" hint2="0" width="11671" height="917" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[tblEmployeeSurvey-LkpRatings1]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="8" sourceattachpoint="12" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="33880" y="716" />
+                    <point x="28345" y="716" />
+                    <point x="28345" y="499" />
+                    <point x="22809" y="499" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="22509" top="-351" logicalid="18" controlid="18" masterid="0" hint1="0" hint2="0" width="11671" height="917" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[tblEmployeeSurvey-LkpRatings12]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="8" sourceattachpoint="10" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="33880" y="166" />
+                    <point x="28345" y="166" />
+                    <point x="28345" y="-51" />
+                    <point x="22809" y="-51" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>9</DiagramViewPortLeft>
+            <DiagramViewPortTop>-10780</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>83</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Capstonec7a</DataSourceID>
+  <Schema>
+    <xs:schema id="Capstonec7a" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Capstonec7a" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="091b303e-f7d5-488e-97b8-61fcae2ae0b8">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_lkpEducation" msprop:design-time-name="95132cfa-631e-4ddc-89ef-806496a26dcc" msprop:FriendlyName="lkpEducation" msprop:DbSchemaName="dbo" msprop:DbTableName="lkpEducation" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="EducationId" msprop:design-time-name="3fd9f36c-e903-4ceb-8b96-80d1b00cbd9c" msprop:DbColumnName="EducationId" msprop:FriendlyName="EducationId" type="xs:short" />
+                  <xs:element name="Education" msprop:design-time-name="fd9bf2ad-a835-4d92-afc2-f60762a0c3ad" msprop:DbColumnName="Education" msprop:FriendlyName="Education" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="17" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_lkpDepartment" msprop:design-time-name="6a0c774c-b868-483d-b70b-52c2ed2f2720" msprop:FriendlyName="lkpDepartment" msprop:DbSchemaName="dbo" msprop:DbTableName="lkpDepartment" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DepartmentId" msprop:design-time-name="85032bf0-83cb-4613-ac11-e2f192e68f4d" msprop:DbColumnName="DepartmentId" msprop:FriendlyName="DepartmentId" type="xs:short" />
+                  <xs:element name="Department" msprop:design-time-name="b8c76e62-71a6-4654-baec-4870837b9e29" msprop:DbColumnName="Department" msprop:FriendlyName="Department" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="22" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_lkpGender" msprop:design-time-name="8ebbf612-d32e-4228-8fab-ac7eacd674dc" msprop:FriendlyName="lkpGender" msprop:DbSchemaName="dbo" msprop:DbTableName="lkpGender" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="GenderId" msprop:design-time-name="85dfd509-9160-42b9-839a-e82f59772a37" msprop:DbColumnName="GenderId" msprop:FriendlyName="GenderId" type="xs:short" />
+                  <xs:element name="Gender" msprop:design-time-name="49670036-19cd-48d2-a425-c5bd6c6d7e20" msprop:DbColumnName="Gender" msprop:FriendlyName="Gender" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_lkpJobRole" msprop:design-time-name="e5e746f8-af9c-4c3d-8edc-3ee99cdc695d" msprop:FriendlyName="lkpJobRole" msprop:DbSchemaName="dbo" msprop:DbTableName="lkpJobRole" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="JobRoleId" msprop:design-time-name="4369cdb3-fa47-4d3e-9b1a-ee94ff672cbd" msprop:DbColumnName="JobRoleId" msprop:FriendlyName="JobRoleId" type="xs:short" />
+                  <xs:element name="JobRole" msprop:design-time-name="d0112421-76bd-45fc-8b93-a093b80d5eaa" msprop:DbColumnName="JobRole" msprop:FriendlyName="JobRole" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="25" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_lkpMaritalStatus" msprop:design-time-name="1d62186f-bf67-453a-9194-37816c8baa6f" msprop:FriendlyName="lkpMaritalStatus" msprop:DbSchemaName="dbo" msprop:DbTableName="lkpMaritalStatus" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="MartialStatusId" msprop:design-time-name="ab75f98c-ed2b-4224-ac44-ad754cb2f03d" msprop:DbColumnName="MartialStatusId" msprop:FriendlyName="MartialStatusId" type="xs:short" />
+                  <xs:element name="MartialStatus" msprop:design-time-name="4a0b4eeb-8246-42a1-b363-b1974c8bc1fe" msprop:DbColumnName="MartialStatus" msprop:FriendlyName="MartialStatus" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="8" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_LkpRatings" msprop:design-time-name="653f72e9-4836-4d4f-b4ee-f020eccaac24" msprop:FriendlyName="LkpRatings" msprop:DbSchemaName="dbo" msprop:DbTableName="LkpRatings" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="RatingID" msprop:design-time-name="37665e27-424d-4d2e-a4c5-cdce38c27026" msprop:DbColumnName="RatingID" msprop:FriendlyName="RatingID" type="xs:short" />
+                  <xs:element name="Rating" msprop:design-time-name="57a2a29e-5842-409e-8a9e-f05c31e22a35" msprop:DbColumnName="Rating" msprop:FriendlyName="Rating" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="19" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_lkpSalaries" msprop:design-time-name="407a9f0d-44ed-4385-9fb4-8bc030ece217" msprop:FriendlyName="lkpSalaries" msprop:DbSchemaName="dbo" msprop:DbTableName="lkpSalaries" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="EmployeeNumber" msprop:design-time-name="356f98e1-ddbf-4f4a-bf3c-7071f2e73864" msprop:DbColumnName="EmployeeNumber" msprop:FriendlyName="EmployeeNumber" type="xs:short" />
+                  <xs:element name="HourlyRate" msprop:design-time-name="f47e372f-def8-46d1-9d2a-5ff362f9fa1c" msprop:DbColumnName="HourlyRate" msprop:FriendlyName="HourlyRate" type="xs:short" minOccurs="0" />
+                  <xs:element name="Column_x0020_2" msprop:design-time-name="31f44c03-456d-4017-9a25-ed354bcba0c1" msprop:DbColumnName="Column 2" msprop:FriendlyName="Column 2" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_tblEmployeeSurvey" msprop:design-time-name="364ef0c0-1806-4adc-b715-f46b34e024bb" msprop:FriendlyName="tblEmployeeSurvey" msprop:DbSchemaName="dbo" msprop:DbTableName="tblEmployeeSurvey" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="EmployeeNumber" msprop:design-time-name="b4a99a08-9b36-4311-a086-9f7f9a2d9fa4" msprop:DbColumnName="EmployeeNumber" msprop:FriendlyName="EmployeeNumber" type="xs:short" minOccurs="0" />
+                  <xs:element name="Department" msprop:design-time-name="ecfa23e6-6f4a-44c8-af1e-1cf7c4ae5bed" msprop:DbColumnName="Department" msprop:FriendlyName="Department" type="xs:short" minOccurs="0" />
+                  <xs:element name="Education" msprop:design-time-name="cf76d745-8005-40dc-9095-11cbf9d2ce10" msprop:DbColumnName="Education" msprop:FriendlyName="Education" type="xs:short" minOccurs="0" />
+                  <xs:element name="Gender" msprop:design-time-name="1a27bb7e-fc67-4b14-b4cb-6e95843fc3e1" msprop:DbColumnName="Gender" msprop:FriendlyName="Gender" type="xs:short" minOccurs="0" />
+                  <xs:element name="Age" msprop:design-time-name="1ea86b4b-64be-43ae-9cc2-bbccbde1e547" msprop:DbColumnName="Age" msprop:FriendlyName="Age" type="xs:short" minOccurs="0" />
+                  <xs:element name="JobLevel" msprop:design-time-name="c95e1295-998e-4b76-8ac8-6fb3fe1ce7d7" msprop:DbColumnName="JobLevel" msprop:FriendlyName="JobLevel" type="xs:short" minOccurs="0" />
+                  <xs:element name="JobRole" msprop:design-time-name="25f5f5fe-ec06-4959-9f87-cc67d7d4ace5" msprop:DbColumnName="JobRole" msprop:FriendlyName="JobRole" type="xs:short" minOccurs="0" />
+                  <xs:element name="MaritalStatus" msprop:design-time-name="4e808759-e403-4303-abb1-45609f0ad6a6" msprop:DbColumnName="MaritalStatus" msprop:FriendlyName="MaritalStatus" type="xs:short" minOccurs="0" />
+                  <xs:element name="NumCompaniesWorked" msprop:design-time-name="a225ee8e-bcd4-4028-a276-96f8fecea3c1" msprop:DbColumnName="NumCompaniesWorked" msprop:FriendlyName="NumCompaniesWorked" type="xs:short" minOccurs="0" />
+                  <xs:element name="PerformanceRating" msprop:design-time-name="87549d6a-37df-4d66-908f-bad504921ecb" msprop:DbColumnName="PerformanceRating" msprop:FriendlyName="PerformanceRating" type="xs:short" minOccurs="0" />
+                  <xs:element name="TrainingTimesLastYear" msprop:design-time-name="2b48fa7e-d96b-4d75-8ea2-b6f347dcc0b3" msprop:DbColumnName="TrainingTimesLastYear" msprop:FriendlyName="TrainingTimesLastYear" type="xs:short" minOccurs="0" />
+                  <xs:element name="YearsAtCompany" msprop:design-time-name="d3cdabe4-80d8-4ed0-9d4a-616dec9fe0aa" msprop:DbColumnName="YearsAtCompany" msprop:FriendlyName="YearsAtCompany" type="xs:short" minOccurs="0" />
+                  <xs:element name="YearsInCurrentRole" msprop:design-time-name="ce49a159-808f-45c7-886e-012e372eb946" msprop:DbColumnName="YearsInCurrentRole" msprop:FriendlyName="YearsInCurrentRole" type="xs:short" minOccurs="0" />
+                  <xs:element name="YearsSinceLastPromotion" msprop:design-time-name="0c18ca9f-ba58-488e-9bd0-6bb53de9a1fa" msprop:DbColumnName="YearsSinceLastPromotion" msprop:FriendlyName="YearsSinceLastPromotion" type="xs:short" minOccurs="0" />
+                  <xs:element name="YearsWithCurr4" msprop:design-time-name="7bb9f2b4-1d46-4751-a8de-5c0c64ee8f06" msprop:DbColumnName="YearsWithCurr4" msprop:FriendlyName="YearsWithCurr4" type="xs:short" minOccurs="0" />
+                  <xs:element name="JobSatisfaction" msprop:design-time-name="9168f74b-1f98-412a-b03d-d64c60b6f850" msprop:DbColumnName="JobSatisfaction" msprop:FriendlyName="JobSatisfaction" type="xs:short" minOccurs="0" />
+                  <xs:element name="EnvironmentSatisfaction" msprop:design-time-name="2857ac8b-1721-44bb-846c-02c5fdad5791" msprop:DbColumnName="EnvironmentSatisfaction" msprop:FriendlyName="EnvironmentSatisfaction" type="xs:short" minOccurs="0" />
+                  <xs:element name="WorkLifeBalance" msprop:design-time-name="cc063598-6771-4a64-b80f-58e6323ba026" msprop:DbColumnName="WorkLifeBalance" msprop:FriendlyName="WorkLifeBalance" type="xs:short" minOccurs="0" />
+                  <xs:element name="EmployeeCount" msprop:design-time-name="2f1a786f-df07-4082-a1b8-25457accd27e" msprop:DbColumnName="EmployeeCount" msprop:FriendlyName="EmployeeCount" type="xs:short" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_lkpEducation" />
+          <xs:field xpath="EducationId" />
+        </xs:unique>
+        <xs:unique name="dbo_lkpDepartment_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_lkpDepartment" />
+          <xs:field xpath="DepartmentId" />
+        </xs:unique>
+        <xs:unique name="dbo_lkpGender_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_lkpGender" />
+          <xs:field xpath="GenderId" />
+        </xs:unique>
+        <xs:unique name="dbo_lkpJobRole_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_lkpJobRole" />
+          <xs:field xpath="JobRoleId" />
+        </xs:unique>
+        <xs:unique name="dbo_lkpMaritalStatus_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_lkpMaritalStatus" />
+          <xs:field xpath="MartialStatusId" />
+        </xs:unique>
+        <xs:unique name="dbo_LkpRatings_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_LkpRatings" />
+          <xs:field xpath="RatingID" />
+        </xs:unique>
+        <xs:unique name="dbo_lkpSalaries_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_lkpSalaries" />
+          <xs:field xpath="EmployeeNumber" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="tblEmployeeSurvey-lkpDepartment" msdata:parent="dbo_lkpDepartment" msdata:child="dbo_tblEmployeeSurvey" msdata:parentkey="DepartmentId" msdata:childkey="Department" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="tblEmployeeSurvey-lkpSalaries" msdata:parent="dbo_lkpSalaries" msdata:child="dbo_tblEmployeeSurvey" msdata:parentkey="EmployeeNumber" msdata:childkey="EmployeeNumber" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="tblEmployeeSurvey-lkpEducation" msdata:parent="dbo_lkpEducation" msdata:child="dbo_tblEmployeeSurvey" msdata:parentkey="EducationId" msdata:childkey="Education" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="tblEmployeeSurvey-lkpMaritalStatus" msdata:parent="dbo_lkpMaritalStatus" msdata:child="dbo_tblEmployeeSurvey" msdata:parentkey="MartialStatusId" msdata:childkey="MaritalStatus" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="tblEmployeeSurvey-lkpGender" msdata:parent="dbo_lkpGender" msdata:child="dbo_tblEmployeeSurvey" msdata:parentkey="GenderId" msdata:childkey="Gender" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="tblEmployeeSurvey-lkpJobRole" msdata:parent="dbo_lkpJobRole" msdata:child="dbo_tblEmployeeSurvey" msdata:parentkey="JobRoleId" msdata:childkey="JobRole" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="tblEmployeeSurvey-LkpRatings" msdata:parent="dbo_LkpRatings" msdata:child="dbo_tblEmployeeSurvey" msdata:parentkey="RatingID" msdata:childkey="JobSatisfaction" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="tblEmployeeSurvey-LkpRatings1" msdata:parent="dbo_LkpRatings" msdata:child="dbo_tblEmployeeSurvey" msdata:parentkey="RatingID" msdata:childkey="EnvironmentSatisfaction" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="tblEmployeeSurvey-LkpRatings12" msdata:parent="dbo_LkpRatings" msdata:child="dbo_tblEmployeeSurvey" msdata:parentkey="RatingID" msdata:childkey="WorkLifeBalance" msprop:IsLogical="True" msprop:Description="" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <Capstonec7a xmlns="" />
+  </Schema>
+</DataSourceView>
